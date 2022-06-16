@@ -1,0 +1,43 @@
+.aboutme {
+  img {
+    width: 30rem;
+  }
+}
+.skill {
+  display: grid;
+  grid-template-columns: max-content;
+  justify-content: center;
+
+  box-shadow: 0 1rem 2rem rgba(#000, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+
+  img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+  }
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(5, 10rem);
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.skill-btn {
+  padding: 5rem;
+
+  border-radius: 10px;
+
+  font-size: 3rem;
+
+  cursor: pointer;
+}
+.star {
+  color: $color-primary;
+  text-align: center;
+  font-weight: 800;
+}

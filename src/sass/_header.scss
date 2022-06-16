@@ -23,12 +23,21 @@
     }
 
     li {
+      display: block;
       list-style: none;
       font-size: 2rem;
       text-transform: uppercase;
       font-weight: bold;
 
-      &:hover {
+      a {
+        text-decoration: none;
+        color: inherit;
+        padding-bottom: 1rem;
+      }
+
+      .active {
+        border-bottom: 3px solid $color-primary;
+        color: $color-secondary;
       }
     }
   }

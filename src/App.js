@@ -6,6 +6,7 @@ import Main from './components/main';
 import { Routes, Route, Link } from 'react-router-dom';
 import Portfolios from './components/Portfolios';
 import AboutMe from './components/AboutMe';
+import Welcome from './components/Welcome';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/main" element={<Main />} />
         <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="/Portfolios" element={<Portfolios />} />
+        <Route path="/portfolios" element={<Portfolios />} />
       </Routes>
       <Footer />
     </Fragment>
