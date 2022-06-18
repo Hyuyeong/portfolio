@@ -5,6 +5,13 @@ import img1 from '../assets/hyu.png';
 import s1 from '../assets/html.png';
 import s2 from '../assets/css.png';
 import s3 from '../assets/js.png';
+import s4 from '../assets/mongodb.png';
+import s5 from '../assets/nodeJS.png';
+import s6 from '../assets/Npm.png';
+import s7 from '../assets/GitHub-logo.png';
+import s8 from '../assets/react.jpg';
+import s9 from '../assets/mongoose.png';
+import s10 from '../assets/sass.png';
 
 const data = [
   {
@@ -17,6 +24,34 @@ const data = [
   },
   {
     id: s3,
+    skill: '★★★★★',
+  },
+  {
+    id: s4,
+    skill: '★★',
+  },
+  {
+    id: s5,
+    skill: '★★★★',
+  },
+  {
+    id: s6,
+    skill: '★★★★★',
+  },
+  {
+    id: s7,
+    skill: '★★★★★',
+  },
+  {
+    id: s8,
+    skill: '★★★',
+  },
+  {
+    id: s9,
+    skill: '★★★',
+  },
+  {
+    id: s10,
     skill: '★★★★★',
   },
 ];

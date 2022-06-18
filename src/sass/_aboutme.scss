@@ -12,6 +12,12 @@
   border-radius: 8px;
   overflow: hidden;
 
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateY(-1rem);
+  }
+
   img {
     width: 10rem;
     height: 10rem;
